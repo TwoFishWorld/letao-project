@@ -1,0 +1,112 @@
+@import 'base.less';
+
+
+// 导航栏
+#nav {
+    padding: 10px;
+    >.mui-row {
+        >a {
+            display: block;
+            >img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// 广告区
+#ad {
+    padding: 0 10px;
+    border-top: 1px solid #ccc;
+    >.mui-row {
+        >.left {
+            >.mui-row {
+                >div {
+                    >a {
+                        display: block;
+                        >img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        >.right {
+            >a {
+                display: block;
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+//品牌区
+#brand {
+    padding: 10px;
+    >.title {
+        >img {
+            width: 100%;
+        }
+    }
+    >.mui-row {
+        >div {
+            >a {
+                display: block;
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 运动生活专区
+#life,#women,#men {
+    padding: 0 10px;
+    >.title {
+        display: block;
+        >img {
+            width: 100%;
+        }
+    }
+    >.mui-row {
+        >div {
+            padding: 6px;
+            >div {
+                box-shadow: 0 0 4px rgba(200,200,200,.8);
+                text-align: center;
+                >.product {
+                    display: block;
+                    >img {
+                        width: 100%;
+                    }
+                }
+                >.name {
+                    font-style: 14px;
+                    line-height: 16px;
+                    height: 32px;
+                    overflow: hidden;
+                    padding: 0 4px;
+                }
+                >.price {
+                    font-size: 12px;
+                    >span {
+                        color: red;
+                    }
+                    >del {
+                        color: #ccc;
+                    }
+                }
+                >button {
+                    height: 26px;
+                    line-height: 10px;
+                    background-color: @mainColor;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
