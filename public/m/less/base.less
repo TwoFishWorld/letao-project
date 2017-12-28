@@ -4,6 +4,16 @@ img {
     vertical-align: middle;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+    border: 0;
+}
+
 #header {
     height: 45px;
     width: 100%;
@@ -12,6 +22,22 @@ img {
     text-align: center;
     position: fixed;
     z-index: 999;
+    a.icon_back {
+        color: #fff;
+        font-size: 18px;
+        position: absolute;
+        left: 12px;
+        top: 12px;
+    }
+    >form {
+        margin-right: 40px;
+        margin-left: 40px;
+        >input {
+            background-color: #fff;
+            text-align: left;
+            // font-size: 16px;s
+        }
+    }
     h {
         font-size: 18px;
         color: #fff;
